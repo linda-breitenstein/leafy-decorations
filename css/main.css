@@ -9,7 +9,6 @@ html {
   border-top: 3px solid #2d5a4d;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px auto;
-  background-image: repeat;
 }
 
 .logo {
@@ -34,7 +33,6 @@ html {
   background-size: 64px;
   background-color: #fff;
   color: #145b1d;
-
 }
 
 .banner {
@@ -53,12 +51,12 @@ html {
 }
 
 @media only screen and (min-width: 60em) {
+
   .banner-content {
     padding-top: 16.9em;
     background-position: .76em 9.9em;
   }
 }
-
 @media only screen and (min-width: 60em) {
 
   .logo {
