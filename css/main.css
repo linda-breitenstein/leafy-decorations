@@ -38,6 +38,7 @@ html {
 .banner {
   border-bottom: 3px solid #2d5a4d;
   background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 71%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -45,7 +46,7 @@ html {
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: .75em 11.5em;
+  background-position: .75em 11.6em;
   background-size: 100px;
   padding-top: 18.5em;
 }
