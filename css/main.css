@@ -37,7 +37,7 @@ html {
 
 .banner {
   border-bottom: 3px solid #2d5a4d;
-  background-image: linear-gradient(to bottom, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, , rgba(16, 52, 41, 0) 71%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -50,13 +50,15 @@ html {
   padding-top: 18.5em;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   .banner-content {
     padding-top: 16.9em;
     background-position: .76em 9.9em;
   }
+
 }
+
 @media only screen and (min-width: 60em) {
 
   .logo {
@@ -78,7 +80,7 @@ html {
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 
   .banner-content {
     padding-top: 13.9em;
